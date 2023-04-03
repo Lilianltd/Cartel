@@ -1,0 +1,23 @@
+html body{
+  background-color : #fff6d19c;
+  z-index: 1;
+}
+
+
+.container {
+  z-index: 2;
+}
+
+
+
+#footer{
+  background-color: #80b0ff;
+  position:relative;
+  bottom:0;  /* on le colle en bas */
+  width:100%;
+  z-index: 2;
+
+}
+
+
+
