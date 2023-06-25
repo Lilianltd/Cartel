@@ -7,17 +7,201 @@ html body{
 
 .container {
   z-index: 2;
+  padding : 0;
 }
 
 
-
 #footer{
-  background-color: #80b0ff;
+  background-color: #2b92d5;
   position:relative;
   bottom:0;  /* on le colle en bas */
   width:100%;
   z-index: 2;
 
 }
+
+.header{
+  z-index : 10000;
+  background: #2b92d5;
+  position: sticky;
+  top: 0;
+  font-size: large;
+}
+
+.navbar-nav{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+}
+
+
+.dropdown-menu.show{
+  background: #80b0ff;
+}
+
+.dropdown-item{
+  font-size: large;
+}
+
+.dropdown-item:hover{
+  background: #a1c4fd;
+}
+
+.header .navbar-toggler{
+  margin-right: 10px;
+}
+
+.header .navbar{
+  padding: 0;
+}
+
+.header .navbar-brand{
+  padding-left: 10px;
+}
+
+/* page d'accueil (index.php)*/
+
+.title-event {
+  color: #2b92d5;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+p.lead {
+  color:#37f9ee;
+  font-weight: bold;
+  font-size:x-large;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Ratio 16:9 pour une vidéo en plein écran */
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustement de la vidéo pour remplir le conteneur */
+}
+
+
+/* stats part */
+
+
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.stat-box {
+    background-color: #e4fcfc;
+    padding: 20px;
+    margin: 10px 0;
+    max-width: 40vw;
+    min-width: 40vw;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 18%;
+    text-align: center;
+}
+
+@media screen and (min-width:850px) {
+  .stat-box {
+    background-color: #e4fcfc;
+    padding: 20px;
+    margin: 10px 3vw;
+    max-width: 25vw;
+    min-width: 25vw;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 18%;
+    text-align: center;
+  }
+  .stats-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 0;       
+  }
+
+  
+}
+
+.stat-text h1{
+  color: #2b92d5;
+  justify-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+  display: flex;
+}
+
+.stat-box h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
+
+
+
+.countdown-heading {
+  font-size: 24px;
+  margin-bottom: 5vh;
+  font-weight: bold;
+  font-size: xx-large;
+  color: #2b92d5;
+}
+
+
+.countdown {
+  width: fit-content;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-items: center;
+}
+
+
+.countdown-item {
+  margin: 0 3vw;
+  display: grid;
+
+}
+
+
+
+.countdown-value {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.countdown-label {
+  font-size: 14px;
+}
+
+.countdown-container{
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.col.text-center{
+  display: grid;
+  justify-items: center;
+}
+
+
 
 
