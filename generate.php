@@ -48,8 +48,8 @@ function generate_header($n)
                          Découvrir
                       </a>
                       <ul class="dropdown-menu ">
-                         <li><a class="dropdown-item" href="#">Notre histoire</a></li>
-                         <li><a class="dropdown-item" href="#">IMT Atlantique</a></li>
+                         <li><a class="dropdown-item" href="'.include_back_root($n).'decouvrir/cartel.php">Notre histoire</a></li>
+                         <li><a class="dropdown-item" href="'.include_back_root($n).'decouvrir/imt_atlantique.php">IMT Atlantique</a></li>
                          <li><a class="dropdown-item" href="'.include_back_root($n).'decouvrir/sport.php">Sport</a></li>
                       </ul>
                    </li>
