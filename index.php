@@ -5,14 +5,14 @@
 <body class="d-flex flex-column min-vh-100">
   
 <?php
-include_once("header.html")
+include_once("generate.php");
+generate_header(0);
 ?>
 
 
   <div class="video-container">
       <video autoplay loop muted>
           <source src="IMG_6960.mp4" type="video/mp4">
-          <source src="chemin_vers_ta_video.webm" type="video/webm">
           <p>Ton navigateur ne supporte pas la lecture de vidéos HTML5.</p>
       </video>
   </div>
@@ -79,7 +79,7 @@ include_once("header.html")
 
 
 <?php
-include_once("footer.html");
+generate_footer(0)
 ?>
 
 
@@ -112,6 +112,6 @@ include_once("footer.html");
   // Mettre à jour le compte à rebours toutes les secondes
   setInterval(updateCountdown, 1000);
 </script>
-</script>
+
 </body>
 </html>
