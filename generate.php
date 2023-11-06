@@ -15,6 +15,7 @@ function generate_header($n)
     <html>
     <head>
        <title>Cartel 2024</title>
+       <link rel="shortcut icon" href="'.include_back_root($n).'favicon.ico" type="image/x-icon">
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link rel="stylesheet" href="'.include_back_root($n).'stylesheet.css">

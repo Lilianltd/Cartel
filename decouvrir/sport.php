@@ -1,12 +1,12 @@
+<?php 
+  include_once("../generate.php");
+  generate_header(1); 
+?>
+
 <!DOCTYPE html>
 <html>
 
 <body class="d-flex flex-column min-vh-100">
-
-  <?php 
-  include_once("../generate.php");
-  generate_header(1); 
-  ?>
 
   <style>
     .card {

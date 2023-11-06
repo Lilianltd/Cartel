@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html>
-
-<body class="d-flex flex-column min-vh-100">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Partenaires</title>
-    <!-- Ajoutez le lien CDN vers Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-
 <?php
 include_once('../generate.php');
 generate_header(1);
 ?>
 
+<!DOCTYPE html>
+<html>
+
+<body class="d-flex flex-column min-vh-100">
+<head>
+   <title>Partenaires</title>
+</head>
 
 <div class="container mt-5">
     <h1 class="text-center mb-4">Nos Partenaires</h1>

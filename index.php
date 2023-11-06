@@ -1,15 +1,12 @@
-
-<!DOCTYPE html>
-<html>
-
-<body class="d-flex flex-column min-vh-100">
-  
 <?php
 include_once("generate.php");
 generate_header(0);
 ?>
 
+<!DOCTYPE html>
+<html>
 
+<body class="d-flex flex-column min-vh-100">
   <div class="video-container">
       <video autoplay loop muted>
           <source src="IMG_6960.mp4" type="video/mp4">
