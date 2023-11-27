@@ -3,29 +3,30 @@ include_once("generate.php");
 generate_header(0);
 ?>
 
+
+
 <!DOCTYPE html>
 <html>
 
 <body class="d-flex flex-column min-vh-100">
   <div class="video-container">
       <video autoplay loop muted>
-          <source src="IMG_6960.mp4" type="video/mp4">
+          <source src="trailer.mp4" type="video/mp4">
           <p>Ton navigateur ne supporte pas la lecture de vidéos HTML5.</p>
       </video>
   </div>
 
 
-<div class="edition-info text-center bg-light p-4">
+<div class="edition-info text-center bg-light ">
   <h1 class="title-event">C'est la 50e édition !</h1>
   <p class="lead">Du 21 avril au 25 avril à Nantes</p>
 </div>
 
 
-
 <div class="countdown-container">
   <div class="row g-0">
-    <div class="col text-center" style="max-width:100vw;">
-      <h2 class="countdown-heading">
+    <div class="col text-center">
+     <h2 class="countdown-heading">
         Début du Cartel 2023 dans ...
       </h2>
       <div id="countdown" class="countdown">

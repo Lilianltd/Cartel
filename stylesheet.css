@@ -156,6 +156,7 @@ p.lead {
 
 
 .countdown-heading {
+  opacity: 1;
   font-size: 24px;
   margin-bottom: 5vh;
   font-weight: bold;
@@ -204,4 +205,12 @@ p.lead {
 
 
 
+.countdown-container{
+  background:url(defile.jpeg);
+  opacity: 0.6;
+  background-size: cover;
+}
 
+.countdown-container::before{
+  opacity: 1;
+}
