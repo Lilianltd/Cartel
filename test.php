@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-
-<body class="d-flex flex-column min-vh-100">
-
-  <?php include_once("header.html") ?>
-
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     .card {
-      border:none;
+      border:none
+      perspective: 1000px;
       transition: transform 1s;
       border-radius: 25px;
       overflow: hidden;
@@ -121,7 +120,7 @@
       });
     });
   </script>
-
-<?php include_once("footer.html")?>
 </body>
 </html>
+
+

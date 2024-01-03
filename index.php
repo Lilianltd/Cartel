@@ -12,7 +12,6 @@ include_once("header.html")
   <div class="video-container">
       <video autoplay loop muted>
           <source src="IMG_6960.mp4" type="video/mp4">
-          <source src="chemin_vers_ta_video.webm" type="video/webm">
           <p>Ton navigateur ne supporte pas la lecture de vidéos HTML5.</p>
       </video>
   </div>
@@ -112,6 +111,6 @@ include_once("footer.html");
   // Mettre à jour le compte à rebours toutes les secondes
   setInterval(updateCountdown, 1000);
 </script>
-</script>
+
 </body>
 </html>
