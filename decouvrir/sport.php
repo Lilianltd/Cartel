@@ -9,6 +9,7 @@
 <body class="d-flex flex-column min-vh-100">
 
   <style>
+
     .card {
       border:none;
       transition: transform 1s;
