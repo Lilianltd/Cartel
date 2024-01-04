@@ -92,9 +92,13 @@ p.lead {
 
 /* stats part */
 
-
+.stat-container{
+  background: white;
+  padding-top: 5vh;
+}
 
 .stats-container {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +171,7 @@ p.lead {
 
 .countdown {
   width: fit-content;
-  border: 2px solid #ccc;
+  border: 2px solid #000000;
   border-radius: 10px;
   padding: 15px;
   box-sizing: border-box;
@@ -194,8 +198,8 @@ p.lead {
 }
 
 .countdown-container{
-  padding-top: 5vh;
-  padding-bottom: 10vh;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
 }
 
 .col.text-center{
@@ -204,13 +208,20 @@ p.lead {
 }
 
 
-
-.countdown-container{
-  background:url(defile.jpeg);
-  opacity: 0.6;
+.countdown-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('defile.jpeg') no-repeat center center fixed;
   background-size: cover;
+  opacity: 0.4;
+  z-index: -1;
 }
 
-.countdown-container::before{
-  opacity: 1;
+.content {
+  position: relative;
+  text-align: center;
+  z-index: 1;
 }

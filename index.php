@@ -24,7 +24,9 @@ generate_header(0);
 
 
 <div class="countdown-container">
-  <div class="row g-0">
+  <div class="countdown-img">
+  </div>
+  <div class="row g-0 content">
     <div class="col text-center">
      <h2 class="countdown-heading">
         Début du Cartel 2023 dans ...
