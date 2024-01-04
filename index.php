@@ -11,7 +11,7 @@ generate_header(0);
 <body class="d-flex flex-column min-vh-100">
   <div class="video-container">
       <video autoplay loop muted>
-          <source src="IMG_6960.mp4" type="video/mp4">
+          <source src="trailer.mp4" type="video/mp4">
           <p>Ton navigateur ne supporte pas la lecture de vidéos HTML5.</p>
       </video>
   </div>
