@@ -118,6 +118,11 @@ p.lead {
     text-align: center;
 }
 
+.edition-info{
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
 @media screen and (min-width:850px) {
   .stat-box {
     background-color: #e4fcfc;
