@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>cartel</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+  <link rel="stylesheet" href="assets/css/Login-Red.css">
+  <link rel="stylesheet" href="assets/css/Ludens---1-Dark-mode-Index-Table-with-Search-Filters.css">
+  <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-light navbar-expand-md py-3">
+  <div class="container"><a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="assets/img/logo_cartel.png" width="100">
+    <span style="margin-left:20px">Gestion Cartel</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse text-center d-xxl-flex justify-content-xxl-center" id="navcol-1">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="score.html">Scores</a></li>
+        <li class="nav-item"><a class="nav-link" href="event.html">Confrontations</a></li>
+        <li class="nav-item"><a class="nav-link" href="school.html">Ecoles</a></li>
+        <li class="nav-item"><a class="nav-link" href="place.html">Lieux</a></li>
+        <li class="nav-item"><a class="nav-link" href="notifications.html">Notifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="logs.html">Historique</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <button class="btn btn-primary" onclick="window.location.href = '/auth/authorize'">
+    S'authentifier
+  </button>
+  <button id="logout_btn" class="btn btn-danger" onclick="logout()">
+    Se déconnecter
+  </button>
+</div>
+<div style="display: flex; justify-content: center;">
+  <p id="auth_info" style="display: none;"></p>
+</div>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/bs-init.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+
+</html>

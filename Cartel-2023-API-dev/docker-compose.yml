@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+  web:
+    image : registry.emait.fr/cartel/appli:latest
+    command : /usr/app/scripts/wait-for-it.sh database:5432 -- bash -c "npx prisma generate && npx prisma db push && npm start"
+    # command : /usr/app/scripts/wait-for-it.sh database:5432 -- bash -c "npx prisma generate && npm start"
+    environment:
+      DATABASE_URL: postgres://postgres:postgres@database:5432
+    depends_on:
+      - database
+    ports:
+      - 8080:8080
+    networks:
+      - devnetcartel
+
+
+  database:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - devdb:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - devnetcartel
+
+
+volumes:
+  devdb:
+networks:
+  devnetcartel:

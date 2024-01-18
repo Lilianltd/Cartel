@@ -1,6 +1,6 @@
 <?php
-include_once('../generate.php');
-generate_header(1);
+include_once('generate.php');
+generate_header(0);
 ?>
 
 <!DOCTYPE html>
@@ -115,5 +115,5 @@ generate_header(1);
 </html>
 
 <?php
-generate_footer(1)
+generate_footer(0)
 ?>

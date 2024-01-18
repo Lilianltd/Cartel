@@ -71,44 +71,6 @@ generate_header(1);
 }
 </style>
 
-<div class="container">
-    <h1>Nos Valeurs</h1>
-
-    <div class="mt-4 bubble">
-        <h2>Respect et Sens des Responsabilités</h2>
-        <ul class="info-bubble">
-            <li>Prix du fair-play pour récompenser la délégation qui aura eu le meilleur esprit sportif</li>
-            <li>Sensibilisation au handisport à travers des stands et animations</li>
-            <li>45 organisateurs impliqués et prêts à endosser des responsabilités</li>
-        </ul>
-    </div>
-
-    <div class="mt-4 bubble">
-        <h2>Ecologie</h2>
-        <ul class="info-bubble">
-            <li>Objectif de labellisation “Développement durable, le sport s'engage”</li>
-            <li>Eco-conception des goodies et fabrication locale et éco-responsable des trophées</li>
-            <li>Gestion et tri des déchets pour limiter notre empreinte carbone</li>
-        </ul>
-    </div>
-
-    <div class="mt-4 bubble">
-        <h2>Innovation</h2>
-        <ul class="info-bubble">
-            <li>Challenge innovation sport durable pour promouvoir les start-up des étudiants</li>
-            <li>Développement de notre application pour faciliter le suivi de la compétition</li>
-        </ul>
-    </div>
-
-    <div class="mt-4 bubble">
-        <h2>Engagement</h2>
-        <ul class="info-bubble">
-            <li>Challenge flamme Eco-lympique en lien avec les JO 2024</li>
-            <li>Concours des hymnes des délégations pour valoriser l’art et la créativité</li>
-            <li>150 bénévoles engagés pleinement pendant le Cartel</li>
-        </ul>
-    </div>
-</div>
 
 
 <div class="contact-info">

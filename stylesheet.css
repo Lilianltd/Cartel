@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Designer';
+  src: url('font/Designer.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Rubik Italic';
+  src: url('font/Rubik-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik Variable';
+  src: url('font/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+
 html body{
   /*background-color : #fff6d19c;*/
   background-color: white;
@@ -12,7 +28,7 @@ html body{
 
 
 #footer{
-  background-color: #2b92d5;
+  background-color: #45deff;
   position:relative;
   bottom:0;  /* on le colle en bas */
   width:100%;
@@ -22,7 +38,7 @@ html body{
 
 .header{
   z-index : 10000;
-  background: #2b92d5;
+  background: #45deff;
   position: sticky;
   top: 0;
   font-size: large;
@@ -36,7 +52,7 @@ html body{
 
 
 .dropdown-menu.show{
-  background: #2b92d5;
+  background: #45deff;
 }
 
 .dropdown-item{
@@ -44,7 +60,7 @@ html body{
 }
 
 .dropdown-item:hover{
-  background: #a1c4fd;
+  background:#45ddffa1;
 }
 
 .header .navbar-toggler{
@@ -62,15 +78,18 @@ html body{
 /* page d'accueil (index.php)*/
 
 .title-event {
-  color: #2b92d5;
-  font-weight: bolder;
+  font-family: 'Designer',sans-serif;
+  color: #00459e;
+  font-weight:900;
   font-size: xx-large;
 }
 
 p.lead {
-  color:#37f9ee;
-  font-weight: bold;
+  font-family: 'Rubik Italic',sans-serif;
+  color:#00459e;
+  font-weight: normal;
   font-size:x-large;
+  font-style: italic;
 }
 
 .video-container {
@@ -107,7 +126,7 @@ p.lead {
 }
 
 .stat-box {
-    background-color: #e4fcfc;
+    background-color: #45deff;
     padding: 20px;
     margin: 10px 0;
     max-width: 40vw;
@@ -125,7 +144,7 @@ p.lead {
 
 @media screen and (min-width:850px) {
   .stat-box {
-    background-color: #e4fcfc;
+    background-color: #45deff;
     padding: 20px;
     margin: 10px 3vw;
     max-width: 25vw;
@@ -147,7 +166,7 @@ p.lead {
 }
 
 .stat-text h1{
-  color: #2b92d5;
+  color: #00459e;
   justify-content: center;
   font-weight: bold;
   font-size: xx-large;
@@ -170,7 +189,7 @@ p.lead {
   margin-bottom: 5vh;
   font-weight: bold;
   font-size: xx-large;
-  color: #2b92d5;
+  color: #00459e;
 }
 
 
@@ -235,4 +254,9 @@ p.lead {
   border: 2px solid #9b9b9b;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   padding: 20px;
+}
+
+.rowfooter{
+  display: flex;
+  justify-content: center;
 }

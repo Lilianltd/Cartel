@@ -85,20 +85,83 @@
   </style>
 </head>
 <body>
+  <div>Sports courants</div>
   <div class="container mt-4">
     <div class="row">
       <?php
-      for ($i = 1; $i <= 10; $i++) {
+      $sport = ["football","Basket-ball",'Handball','Rugby',"Volley-ball","Badminton","Cross",'Escalade','Relais_athle','Relais_natation','Tennis','Tennis_table','Pompom'];
+      $description =[""];
+      for ($i = 1; $i <= 13; $i++) {
+        
       ?>
         <div class="col-md-4 mb-4">
           <div class="card">
             <div class="card-inner">
               <div class="card-front">
-                <img src="sport_image/test_sport.jpg" alt="Sport Image">
-                <a href="#" class="overlay-link">More Details</a>
+                <img src="sport_image/<?php echo $sport[$i]?>.jpg" alt="Sport Image">
+                <a class="overlay-link">Plus de détails</a>
               </div>
               <div class="card-back" style="color:white">
-                <p>Additional details or information</p>
+                <p><?php echo $description[$i]?></p>
+                <p><?php echo $description[$i]?></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php
+      }
+      ?>
+    </div>
+  </div>
+
+  <div>Sports invités</div>
+  <div class="container mt-4">
+    <div class="row">
+      <?php
+      $sport = ["petanque","ultimate",'echecs','arc'];
+      $description =[""];
+      for ($i = 1; $i <= 4; $i++) {
+        
+      ?>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="sport_image/<?php echo $sport[$i]?>.jpg" alt="Sport Image">
+                <a class="overlay-link">Plus de détails</a>
+              </div>
+              <div class="card-back" style="color:white">
+                <p><?php echo $description[$i]?></p>
+                <p><?php echo $description[$i]?></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php
+      }
+      ?>
+    </div>
+  </div>
+
+  <div>Concours annexe</div>
+  <div class="container mt-4">
+    <div class="row">
+      <?php
+      $sport = ["dj","rap",'rock','innovation','ecartel','ambiance',"fairplay"];
+      $description =[""];
+      for ($i = 1; $i <= 6; $i++) {
+        
+      ?>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="sport_image/<?php echo $sport[$i]?>.jpg" alt="Sport Image">
+                <a class="overlay-link">Plus de détails</a>
+              </div>
+              <div class="card-back" style="color:white">
+                <p><?php echo $description[$i]?></p>
+                <p><?php echo $description[$i]?></p>
               </div>
             </div>
           </div>
