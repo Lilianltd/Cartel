@@ -40,36 +40,6 @@
     </div>
 </div>
 
-<style>
-    .container_texte{
-        padding : 5%;
-    }
-
-    .container_texte h1{
-        color: #2b92d5;
-        justify-content: center;
-        font-weight: bold;
-        font-size: xx-large;
-        display: flex;
-        margin-bottom: 15px;
-    }
-
-    .container_texte h4 {
-        text-indent: 5%;
-        text-align: justify;
-        font-size: 18px;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-    .rounded-img {
-        border-radius: 50%;
-        border: 2px solid #ccc;
-    }
-
-
-</style>
-
 <?php generate_footer(1); ?>
 </body>
 </html>

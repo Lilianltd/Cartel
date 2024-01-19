@@ -14,7 +14,9 @@
 }
 
 
+
 html body{
+  font-family: 'Rubik Italic';
   /*background-color : #fff6d19c;*/
   background-color: white;
   z-index: 1;
@@ -42,6 +44,7 @@ html body{
   position: sticky;
   top: 0;
   font-size: large;
+  font-family: 'Designer';
 }
 
 .navbar-nav{
@@ -56,6 +59,7 @@ html body{
 }
 
 .dropdown-item{
+  font-family: 'Rubik Italic';
   font-size: large;
 }
 
@@ -81,7 +85,7 @@ html body{
   font-family: 'Designer',sans-serif;
   color: #00459e;
   font-weight:900;
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 
 p.lead {
@@ -167,6 +171,7 @@ p.lead {
 
 .stat-text h1{
   color: #00459e;
+  font-family: 'Designer',sans-serif;
   justify-content: center;
   font-weight: bold;
   font-size: xx-large;
@@ -190,6 +195,7 @@ p.lead {
   font-weight: bold;
   font-size: xx-large;
   color: #00459e;
+  font-family: 'Designer',sans-serif;
 }
 
 
@@ -259,4 +265,31 @@ p.lead {
 .rowfooter{
   display: flex;
   justify-content: center;
+}
+
+.container_texte{
+  padding : 5%;
+}
+
+.container_texte h1{
+  color: #00459e;
+  font-family: 'Designer';
+  justify-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.container_texte h4 {
+  text-indent: 5%;
+  text-align: justify;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  border: 2px solid #ccc;
 }
