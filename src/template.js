@@ -16,9 +16,9 @@ function generateHeader(n) {
         <html>
         <head>
         <title>Cartel 2024</title>
-            <link rel="stylesheet" href="${includeBackRoot(n)}stylesheet.css">
+            <link rel="stylesheet" href="${includeBackRoot(n)}src/stylesheet.css">
             <title>Cartel 2024</title>
-            <link rel="shortcut icon" href="${includeBackRoot(n)}favicon.ico" type="image/x-icon">
+            <link rel="shortcut icon" href="${includeBackRoot(n)}src/favicon.ico" type="image/x-icon">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta charset=utf-8>
         </head>
