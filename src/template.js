@@ -26,7 +26,7 @@ function generateHeader(n) {
             <div class="header">
                <nav class="navbar navbar-expand-sm">
                   <div class="container-fluid">
-                     <a class="navbar-brand" href="${includeBackRoot(n)}index.php" style="padding-top: 0; padding-bottom: 0;">
+                     <a class="navbar-brand" href="${includeBackRoot(n)}index.html" style="padding-top: 0; padding-bottom: 0;">
                         <img src="${includeBackRoot(n)}src/Logo_Cartel_transparent.png" alt="Logo" width="100" height="71" class="d-inline-block align-top" style="margin: 10px 0;">
                      </a>
                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,22 +88,20 @@ function generateFooter(n) {
                     <div>
                         <div style="display:flex;align-items:center">
                             <img src="${includeBackRoot(n)}src/Logo_Cartel_transparent.png" style="width:8vh">
-                            <h1 style='padding-left:2vw'>Cartel 2024</h4>
+                            <h4 style="padding-left:2vw;font-family: 'Designer',sans-serif;">Cartel 2024</h4>
                         </div>
                         <p style="padding-top:1vh">Un evenement sportif de plus de 1800 étudiants du 25 avril au 28 avril à Nantes</p>
                     </div>
                 </div>
                 <div class="col-md-4 rowfooter" style='display:flex;flex-direction:column;align-items: center;justify-content: flex-start;'>
-                    <h1>Contact</h4>
+                    <h4 style="font-family: 'Designer',sans-serif;">Contact</h4>
                     <div>
                         <svg width="2vw" height="3vh" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#080341"/>
                         </svg>
                         <a href="mailto:contact@cartel2024.com">contact@cartel2024.com</a>
                     </div>
-                </div>
-                <div class="col-md-4 rowfooter">
-                    <ul>
+                    <ul style="padding-top:1vh">
                         <li class="list-inline-item" style="width: 32px;height: 32px">
                             <a href="https://www.instagram.com/cartel_IMTAtlantique2024/">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram" style="width: 30px;height: 30px;color: rgb(209, 87, 240);">
@@ -124,6 +122,9 @@ function generateFooter(n) {
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="col-md-4 rowfooter">
+                    <h4 style="font-family: 'Designer',sans-serif;">Nos partenaires</h4>
                 </div>
             </div>
             <div class="row g-0">
