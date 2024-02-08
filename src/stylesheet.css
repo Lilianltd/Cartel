@@ -30,17 +30,16 @@ html body{
 
 
 #footer{
-  background-color: #45deff;
+  background-color: #00459e;
   position:relative;
   bottom:0;  /* on le colle en bas */
   width:100%;
   z-index: 2;
-
 }
 
 .header{
   z-index : 10000;
-  background: #45deff;
+  background: #00459e;
   position: sticky;
   top: 0;
   font-size: large;
@@ -55,7 +54,7 @@ html body{
 
 
 .dropdown-menu.show{
-  background: #45deff;
+  background: #00459e;
 }
 
 .dropdown-item{
@@ -130,7 +129,7 @@ p.lead {
 }
 
 .stat-box {
-    background-color: #45deff;
+    background-color: #00459e;
     padding: 20px;
     margin: 10px 0;
     max-width: 40vw;
@@ -148,7 +147,7 @@ p.lead {
 
 @media screen and (min-width:850px) {
   .stat-box {
-    background-color: #45deff;
+    background-color: #00459e;
     padding: 20px;
     margin: 10px 3vw;
     max-width: 25vw;
