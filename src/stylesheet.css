@@ -13,7 +13,9 @@
   src: url('font/Rubik-VariableFont_wght.ttf') format('truetype');
 }
 
-
+.designer{
+  font-family: 'Designer';
+}
 
 html body{
   font-family: 'Rubik Italic';
@@ -29,15 +31,16 @@ html body{
 }
 
 
-#footer{
+footer{
   background-color: #00459e;
   position:relative;
+  color: white;
   bottom:0;  /* on le colle en bas */
   width:100%;
   z-index: 2;
 }
 
-.header{
+header{
   z-index : 10000;
   background: #00459e;
   position: sticky;
@@ -52,6 +55,9 @@ html body{
   align-content: flex-end;
 }
 
+.nav-link{
+  color: white;
+}
 
 .dropdown-menu.show{
   background: #00459e;
@@ -59,22 +65,25 @@ html body{
 
 .dropdown-item{
   font-family: 'Rubik Italic';
+  color: white;
   font-size: large;
 }
 
+
 .dropdown-item:hover{
-  background:#45ddffa1;
+  background:#00459e;
+  color: #000000;
 }
 
-.header .navbar-toggler{
+header .navbar-toggler{
   margin-right: 10px;
 }
 
-.header .navbar{
+header .navbar{
   padding: 0;
 }
 
-.header .navbar-brand{
+header .navbar-brand{
   padding-left: 10px;
 }
 
@@ -131,6 +140,7 @@ p.lead {
 .stat-box {
     background-color: #00459e;
     padding: 20px;
+    color: white;
     margin: 10px 0;
     max-width: 40vw;
     min-width: 40vw;

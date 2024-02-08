@@ -22,72 +22,71 @@ function generateHeader(n) {
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta charset=utf-8>
         </head>
-        <body>
-            <div class="header">
-               <nav class="navbar navbar-expand-sm">
-                  <div class="container-fluid">
-                     <a class="navbar-brand" href="${includeBackRoot(n)}index.html" style="padding-top: 0; padding-bottom: 0;">
-                        <img src="${includeBackRoot(n)}src/Logo_Cartel_transparent.png" alt="Logo" width="100" height="71" class="d-inline-block align-top" style="margin: 10px 0;">
-                     </a>
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                        <ul class="navbar-nav mx-auto">
-                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                 L'évènement
-                              </a>
-                              <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}event/planning.html">Planning</a></li>
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}event/sports.html">Sports</a></li>
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}event/concours_annexe.html">Concours annexes</a></li>
-                              </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="${includeBackRoot(n)}valeurs/valeurs.html">Nos valeurs</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Découvrir
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/cartel.html">Notre histoire</a></li>
-                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/imt_atlantique.html">IMT Atlantique</a></li>
-                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/participants.html">Les écoles participantes</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Nos partenaires
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/partenaires.html">Nos partenaires</a></li>
-                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/devenir_partenaire.html">Devenir partenaire</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="${includeBackRoot(n)}tournoi_alumni.html">Tournoi Alumni</a>
-                            </li>
-
-
+        <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="${includeBackRoot(n)}index.html" style="padding-top: 0; padding-bottom: 0;">
+                    <img src="${includeBackRoot(n)}src/logofondbleu.svg" alt="Logo" class="d-inline-block align-top" style="margin: 10px 0; height:10vh">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            L'évènement
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="${includeBackRoot(n)}event/planning.html">Planning</a></li>
+                            <li><a class="dropdown-item" href="${includeBackRoot(n)}event/sports.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="${includeBackRoot(n)}event/concours_annexe.html">Concours annexes</a></li>
                         </ul>
-                     </div>
-                  </div>
-               </nav>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="${includeBackRoot(n)}valeurs/valeurs.html">Nos valeurs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Découvrir
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/cartel.html">Notre histoire</a></li>
+                                <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/imt_atlantique.html">IMT Atlantique</a></li>
+                                <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/participants.html">Les écoles participantes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos partenaires
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/partenaires.html">Nos partenaires</a></li>
+                                <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/devenir_partenaire.html">Devenir partenaire</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="${includeBackRoot(n)}tournoi_alumni.html">Tournoi Alumni</a>
+                        </li>
+
+
+                    </ul>
+                </div>
             </div>
+        </nav>
+        </header>
     `);
 }
 
 
 function generateFooter(n) {
     document.write(`
-        <footer class="footer mt-auto" id="footer">
+        <footer class="mt-auto">
             <div class="row g-0" style="padding-top:3vh;padding-left:3vw;padding-right:3vw">
                 <div class="col-md-4 rowfooter">
                     <div>
                         <div style="display:flex;align-items:center">
-                            <img src="${includeBackRoot(n)}src/Logo_Cartel_transparent.png" style="width:8vh">
+                            <img src="${includeBackRoot(n)}src/logofondbleu.svg" style="height:8vh">
                             <h4 style="padding-left:2vw;font-family: 'Designer',sans-serif;">Cartel 2024</h4>
                         </div>
                         <p style="padding-top:1vh">Un evenement sportif de plus de 1800 étudiants du 25 avril au 28 avril à Nantes</p>
@@ -97,7 +96,7 @@ function generateFooter(n) {
                     <h4 style="font-family: 'Designer',sans-serif;">Contact</h4>
                     <div>
                         <svg width="2vw" height="3vh" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#080341"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="white"/>
                         </svg>
                         <a href="mailto:contact@cartel2024.com">contact@cartel2024.com</a>
                     </div>
