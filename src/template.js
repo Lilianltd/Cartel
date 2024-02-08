@@ -10,8 +10,7 @@ function includeBackRoot(n) {
 
 
 function generateHeader(n) {
-    
-console.log(includeBackRoot(1))
+
     document.write(`
         <!DOCTYPE html>
         <html>
@@ -21,7 +20,7 @@ console.log(includeBackRoot(1))
             <title>Cartel 2024</title>
             <link rel="shortcut icon" href="${includeBackRoot(n)}favicon.ico" type="image/x-icon">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta charset="utf-8">
+            <meta charset=utf-8>
         </head>
         <body>
             <div class="header">
@@ -37,26 +36,41 @@ console.log(includeBackRoot(1))
                         <ul class="navbar-nav mx-auto">
                            <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                 Nos partenaires
+                                 L'évènement
                               </a>
                               <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/partenaires.php">Nos partenaires</a></li>
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/devenir_partenaire.php">Devenir partenaire</a></li>
+                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}event/planning.html">Planning</a></li>
+                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}event/sports.html">Sports</a></li>
+                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}event/concours_annexe.html">Concours annexes</a></li>
                               </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="${includeBackRoot(n)}valeurs.php">Nos valeurs</a>
+                                <a class="nav-link" href="${includeBackRoot(n)}valeurs/valeurs.html">Nos valeurs</a>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                 Découvrir
-                              </a>
-                              <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/cartel.php">Notre histoire</a></li>
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/imt_atlantique.php">IMT Atlantique</a></li>
-                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/sport.php">Sport</a></li>
-                              </ul>
-                           </li>
+                                <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Découvrir
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/cartel.html">Notre histoire</a></li>
+                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/imt_atlantique.html">IMT Atlantique</a></li>
+                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}decouvrir/participants.html">Les écoles participantes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos partenaires
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/partenaires.html">Nos partenaires</a></li>
+                                    <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/devenir_partenaire.html">Devenir partenaire</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="${includeBackRoot(n)}tournoi_alumni.html">Tournoi Alumni</a>
+                            </li>
+
+
                         </ul>
                      </div>
                   </div>
@@ -76,7 +90,7 @@ function generateFooter(n) {
                             <img src="${includeBackRoot(n)}src/Logo_Cartel_transparent.png" style="width:8vh">
                             <h4 style='padding-left:2vw'>Cartel 2024</h4>
                         </div>
-                        <p style="padding-top:1vh">Un evenement sportif de plus de 1800 étudiants du 21 avril au 25 avril à Nantes</p>
+                        <p style="padding-top:1vh">Un evenement sportif de plus de 1800 étudiants du 25 avril au 28 avril à Nantes</p>
                     </div>
                 </div>
                 <div class="col-md-4 rowfooter" style='display:flex;flex-direction:column;align-items: center;justify-content: flex-start;'>
