@@ -18,7 +18,7 @@
         <h4>IMT Atlantique en fait partie. Créée le 1er janvier 2017, IMT Atlantique est issue de la fusion de l'École nationale supérieure des Mines de Nantes et de Télécom Bretagne. L'école s'étend sur trois campus situés à Brest, Nantes et Rennes. IMT Atlantique propose un diplôme d'ingénieur généraliste unique, pour lequel elle recrute des étudiants issus des classes préparatoires aux grandes écoles au travers du Concours Commun Mines-Ponts, mais aussi des élèves issus des Admissions Sur Titres (FAC, IUT,..).</h4>
         <h4>Forte de son excellence dans certains domaines, IMT Atlantique s'inscrit aujourd'hui dans la transition énergétique, environnementale et numérique.</h4>
         <div style="display:flex; justify-content:center">
-            <img src="IMTA.jpg" style="max-width:50vw" label="IMT Atlantique">
+            <img src="IMTA.jpg" style="max-height:25vw" label="IMT Atlantique">
         </div>
         <div class="mot_directeur">
         <h1>Le mot du directeur</h1>   

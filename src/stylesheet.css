@@ -256,6 +256,8 @@ p.lead {
   z-index: 1;
 }
 
+
+
 .contact-person{
   border: 2px solid #9b9b9b;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -293,3 +295,5 @@ p.lead {
   border-radius: 50%;
   border: 2px solid #ccc;
 }
+
+
