@@ -10,17 +10,36 @@
 <script>generateHeader(1)</script>
 <body class="d-flex flex-column min-vh-100">
 
-  <div>Concours annexe</div>
-    <div class="container mt-4">
-      <div class="row">
-        <script>
-          var sports = ["dj","rap",'rock','innovation','ecartel','ambiance',"fairplay"];
-          var descriptions =[""];
-          for (var i = 0; i < 6; i++) {
-            generateCardSport(sports[i],descriptions[i])
-          }
-        </script>
+  <div class="container_texte"><h1>Concours annexe</h1></div>
+  <div class="container mt-4">
+    <div class="row" style="justify-content: space-around;" id="cardContainer">
+      <script>
+            var cardData = [
+              { name: "Rap contest", img: "rap", file: "Rap_contest" },
+              { name: "Rock contest", img: "rock", file: "Rock_contest" },
+              { name: "DJ contest", img: "dj", file: "DJ_contest" },
+              { name: "Challenge innovation", img: "innovation", file: "Challenge_innovation" },
+          ];
+
+        for (var i = 0; i < 4; i++) {
+          generateCard(cardData[i],"cardContainer")
+      }
+    
+      </script>
     </div>
+  </div>
+  <div class="container_texte">
+    <h1>Prix du fair-play</h1>
+    <h4>Le Cartel c’est bien sûr du sport mais c’est aussi une ambiance, des délégations motivées et soudées. A travers ce prix de l’ambiance nous voulons récompenser la motivation, la bienveillance, le fun et l’énergie de toute une délégation qui grâce à son ambiance aura rendu le Cartel inoubliable. 
+    </h4>
+    <h4>
+      Parce que mettre l’ambiance ça se travaille, nous vous proposons de faire une répétition lors du passage de nos représentants et de la flamme éco-lympique dans votre école.
+      On compte sur vous pour mettre l’ambiance et vous battre pour ce prix!
+    </h4>
+  </div>
+  <div class="container_texte">
+    <h1>Prix de l'ambiance</h1>
+    <h4>Le fair-play est une valeur essentielle dans le monde du sport  et c’est pour cela que nous souhaitons récompenser la délégation qui aura eu le meilleur esprit sportif.</h4>
   </div>
 
 </body>
