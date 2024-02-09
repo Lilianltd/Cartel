@@ -6,6 +6,26 @@
         <script type="text/javascript" src="../src/template.js"></script>
     </head>
 
+<script>
+
+function generateCard(data,id) {
+  document.get
+  var cardContainer = document.getElementById(id);
+  var card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `
+    <img src="sport_image/${data.img}.png" alt="Card Image">
+    <div class="overlay">
+      <div class="text">${data.name}</div>
+      <div class="download-box">
+        <a href="reglement_sport/${data.file}.pdf" download>Règlement</a>
+      </div>
+    </div>
+  `;
+  cardContainer.appendChild(card);
+}
+
+</script>
 
 <script>generateHeader(1)</script>
 <body class="d-flex flex-column min-vh-100">
