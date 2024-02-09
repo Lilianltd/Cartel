@@ -251,6 +251,7 @@ p.lead {
 }
 
 .stat-text h1{
+  text-align: center;
   color: #00459e;
   font-family: 'Designer',sans-serif;
   justify-content: center;
