@@ -24,9 +24,9 @@ function generateHeader(n) {
         </head>
         <header>
         <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid">
+            <div class="container-fluid g-0">
                 <a class="navbar-brand" href="${includeBackRoot(n)}index.html" style="padding-top: 0; padding-bottom: 0;">
-                    <img src="${includeBackRoot(n)}src/logofondbleu.svg" alt="Logo" class="d-inline-block align-top" style="margin: 10px 0; height:10vh">
+                    <img src="${includeBackRoot(n)}src/logofondbleu.svg" alt="Logo" class="d-inline-block align-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

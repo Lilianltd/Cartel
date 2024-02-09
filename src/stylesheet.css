@@ -66,8 +66,77 @@ header{
 .dropdown-item{
   font-family: 'Rubik Italic';
   color: white;
-  font-size: large;
 }
+
+
+@media screen and (max-width:575px) {
+  .dropdown-item{
+    font-size: large;
+  }
+  .nav-item{
+    font-size: large;
+  }
+  header .navbar-brand img{
+    height:10vh;
+  }
+  .navbar-collapse{
+    padding-left: 5vw;
+  }
+}
+
+
+@media screen and (min-width:575px) {
+  .dropdown-item{
+    font-size: x-small;
+  }
+  .nav-item{
+    font-size: x-small;
+  }
+  header .navbar-brand img{
+    height:5vh;
+  }
+}
+
+
+@media screen and (min-width:675px) {
+  .dropdown-item{
+    font-size: small;
+  }
+  .nav-item{
+    font-size: small;
+  }
+  header .navbar-brand img{
+    height:6vh;
+  }
+}
+
+@media screen and (min-width:815px) {
+  .dropdown-item{
+    font-size: medium;
+  }
+  .nav-item{
+    font-size: medium;
+  }
+  header .navbar-brand img{
+    height:8vh;
+  }
+}
+
+
+
+@media screen and (min-width:918px) {
+  .dropdown-item{
+    font-size: large;
+  }
+  .nav-item{
+    font-size: large;
+  }
+  header .navbar-brand img{
+    height:10vh;
+  }
+}
+
+
 
 
 .dropdown-item:hover{
@@ -85,7 +154,10 @@ header .navbar{
 
 header .navbar-brand{
   padding-left: 10px;
+  margin: 10px 0; 
 }
+
+
 
 /* page d'accueil (index.php)*/
 
@@ -306,3 +378,22 @@ p.lead {
 }
 
 
+/*participants*/
+
+.container_logo_ecole{
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.container_logo_ecole .row{
+  display: flex;
+  width: 95vw;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container_logo_ecole .row div{
+  width: 30vw;
+  padding-bottom: 5vh;
+}
