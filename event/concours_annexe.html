@@ -8,19 +8,23 @@
 
 
 <script>generateHeader(1)</script>
+<body class="d-flex flex-column min-vh-100">
 
-<div>Concours annexe</div>
-<div class="container mt-4">
-  <div class="row">
-    <script>
-      var sports = ["dj","rap",'rock','innovation','ecartel','ambiance',"fairplay"];
-      var descriptions =[""];
-      for (var i = 0; i < 6; i++) {
-        generateCardSport(sports[i],descriptions[i])
-      }
-    </script>
+  <div>Concours annexe</div>
+    <div class="container mt-4">
+      <div class="row">
+        <script>
+          var sports = ["dj","rap",'rock','innovation','ecartel','ambiance',"fairplay"];
+          var descriptions =[""];
+          for (var i = 0; i < 6; i++) {
+            generateCardSport(sports[i],descriptions[i])
+          }
+        </script>
+    </div>
   </div>
-</div>
+
+</body>
+
 
 <script>generateFooter(1)</script>
 

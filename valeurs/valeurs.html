@@ -12,69 +12,9 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-<style>
-.container {
-
-    padding: 30px;
-    margin-top: 50px;
-}
-
-
-
-.bubble h2 {
-    color: white;
-}
-.bubble {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    background-color: #2b92d5;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.bubble:hover {
-    background-color: #0056b3; /* Darker color on hover */
-}
-.info-bubble {
-    list-style: none;
-    padding: 0;
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.5s ease;
-}
-.bubble:hover .info-bubble {
-    max-height: 500px; /* Set the desired maximum height */
-    opacity: 1;
-}
-.info-bubble li {
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 20px;
-}
-.info-bubble li::before {
-    content: "\2022";
-    color: #007bff;
-    font-size: 20px;
-    position: absolute;
-    left: 0;
-}
-/* Ensure the h2 content is always visible */
-.bubble h2 {
-    opacity: 1;
-    max-height: 100%;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
-}
-</style>
-
-<div class="container">
+<div class="container valeurs container_texte">
     <h1>Nos Valeurs</h1>
-
+    
     <div class="mt-4 bubble">
         <h2>Respect et Sens des Responsabilités</h2>
         <ul class="info-bubble">

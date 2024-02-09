@@ -266,10 +266,6 @@ p.lead {
 }
 
 
-
-
-
-
 .countdown-heading {
   opacity: 1;
   font-size: 24px;
@@ -379,7 +375,7 @@ p.lead {
 }
 
 
-/*participants*/
+/*page participants*/
 
 .container_logo_ecole{
   display: flex;
@@ -397,4 +393,64 @@ p.lead {
 .container_logo_ecole .row div{
   width: 30vw;
   padding-bottom: 5vh;
+}
+
+
+/*page valeurs*/
+
+.valeurs {
+
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.valeurs .bubble h2 {
+  color: white;
+}
+.valeurs .bubble {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: #2b92d5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.valeurs .bubble:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+.valeurs .info-bubble {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+.valeurs .bubble:hover .info-bubble {
+  max-height: 500px; /* Set the desired maximum height */
+  opacity: 1;
+}
+.valeurs .info-bubble li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+.valeurs .info-bubble li::before {
+  content: "\2022";
+  color: #007bff;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+}
+/* Ensure the h2 content is always visible */
+.valeurs .bubble h2 {
+  opacity: 1;
+  max-height: 100%;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
 }
