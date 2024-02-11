@@ -122,8 +122,16 @@ function generateFooter(n) {
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 rowfooter">
+                <div class="col-md-4 rowfooter" style="display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content:normal">
                     <h4 style="font-family: 'Designer',sans-serif;">Nos partenaires</h4>
+                    <div>
+                        <a href="https://www.oresys.eu/" target="_blank">
+                            <img src="logo_partenaires/LOGO_ORS_couleur_blanc_digital.png" alt="Logo Oresys" style="width:5vw">
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row g-0">
