@@ -129,7 +129,7 @@ function generateFooter(n) {
                     <h4 style="font-family: 'Designer',sans-serif;">Nos partenaires</h4>
                     <div>
                         <a href="https://www.oresys.eu/" target="_blank">
-                            <img src="logo_partenaires/LOGO_ORS_couleur_blanc_digital.png" alt="Logo Oresys" style="width:5vw">
+                            <img src="${includeBackRoot(n)}partenaire/logo_partenaires/LOGO_ORS_couleur_blanc_digital.png" alt="Logo Oresys" style="width:5vw">
                         </a>
                     </div>
                 </div>
