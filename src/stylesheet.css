@@ -84,8 +84,19 @@ header{
   }
 }
 
-
 @media screen and (min-width:575px) {
+  .dropdown-item{
+    font-size: xx-small;
+  }
+  .nav-item{
+    font-size: xx-small;
+  }
+  header .navbar-brand img{
+    height:4vh;
+  }
+}
+
+@media screen and (min-width:611px) {
   .dropdown-item{
     font-size: x-small;
   }
@@ -98,7 +109,7 @@ header{
 }
 
 
-@media screen and (min-width:675px) {
+@media screen and (min-width:750px) {
   .dropdown-item{
     font-size: small;
   }
@@ -110,7 +121,7 @@ header{
   }
 }
 
-@media screen and (min-width:815px) {
+@media screen and (min-width:908px) {
   .dropdown-item{
     font-size: medium;
   }
@@ -124,7 +135,7 @@ header{
 
 
 
-@media screen and (min-width:918px) {
+@media screen and (min-width:1023px) {
   .dropdown-item{
     font-size: large;
   }

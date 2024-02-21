@@ -65,11 +65,15 @@ function generateHeader(n) {
                                 <li><a class="dropdown-item" href="${includeBackRoot(n)}partenaire/devenir_partenaire.html">Devenir partenaire</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="${includeBackRoot(n)}tournoi_alumni.html">Tournoi Alumni</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tournoi Alumni
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="${includeBackRoot(n)}alumni/info.html">Informations</a></li>
+                                <li><a class="dropdown-item" href="${includeBackRoot(n)}alumni/inscription.html">S'inscrire</a></li>
+                            </ul>
                         </li>
-
-
                     </ul>
                 </div>
             </div>
