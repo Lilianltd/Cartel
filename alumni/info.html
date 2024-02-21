@@ -3,21 +3,121 @@
         <meta charset="utf-8">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.js"></script>
-        <script type="text/javascript" src="src/template.js"></script>
+        <script type="text/javascript" src="../src/template.js"></script>
     </head>
 
+<style>
+    .img_part1{
+        display: flex;
+        flex-direction: row;
+    }
 
-<script>generateHeader(0)</script>
+    .img_part1 img{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .img_part1 .img1 {
+        width: 55vw;
+    }
+
+    .img_part1 .img2 {
+        width: 35vw;
+    }
+
+    .img_part2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img_part2 div{
+        margin: 2vh;
+    }
+
+    .img_part2 img{
+        padding-bottom: 2vh;
+    }
+
+    .img_part2 .img1 {
+        width: 40vw;
+    }
+
+    .img_part2 .img2 {
+        width: 40vw;
+    }
+
+
+    @media screen and (orientation: portrait) {
+        .img_part1{
+            display: flex;
+            flex-direction:column;
+            align-items:center;
+        }
+
+        .img_part1 .img1 {
+            width: 90vw;
+
+        }
+
+        .img_part1 .img2 {
+            width: 55vw;
+        }
+
+        .img_part2{
+            display: flex;
+            flex-direction:column;
+            align-items:center;
+        }
+
+        .img_part2 .img1 {
+        width: 70vw;
+        }
+
+        .img_part2 .img2 {
+            width: 70vw;
+        }
+        .img_part2 div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .img_part2 h4{
+            width: 100%;
+        }
+
+    }
+
+</style>
+
+<script>generateHeader(1)</script>
 <body class="d-flex flex-column min-vh-100">
     <div class="container_texte">
         <h1>Tournoi alumni</h1>
         <h4>Vous êtes alumni et sportif? Venez participer au tournoi Alumni le 27 avril pour ses 50 ans.Mobilisez vos amis et réservez votre week-end ! Au programme du sport et 2 soirées.</h4>
         <h4>Le format Alumni du Cartel 2024 se présente sous la forme d'un pack unique pour les alumnis désirant participer à un tournoi sportif spécifique aux alumnis. Les inscriptions se feront suivant la règle du premier arrivé premier servi. La billetterie ouvrira le 1er mars à 13h et fin le 15 avril à 23h59</h4>
-        <img src="src/tournoi_alumni.png" style="width: 100%;padding-top:3vh">
+        <div class="img_part1">
+            <img class="img1" src="src/tournoi_alumni.png">
+            <img class="img2" src="src/Planning tournoi alumni.png">
+        </div>
+        <h1>Les lieux</h1>
+        <div class="img_part2">
+            <div>
+                <h4 style="text-align: center;">Salle de Soirée : La Carrière </h4>
+                <h4 style="text-align: center;">2 bis, rue du Souvenir Français – 44800 Saint-Herblain</h4>
+                <img class="img1" src="src/lieu sport.png">
+            </div>
+            <div>
+                <h4 style="text-align: center;">Lieu du tournoi : Gymnase de Polytech Nantes</h4>
+                <h4 style="text-align: center;">Rue Christian Pauc - 44300 Nantes</h4>
+                <img class="img2" src="src/lieu soiree.png">
+            </div>
+        </div>
     </div>
 </body>
 
 
-<script>generateFooter(0)</script>
+<script>generateFooter(1)</script>
 
 </html>
